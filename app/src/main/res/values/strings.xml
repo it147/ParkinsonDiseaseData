@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Parkinson Disease Data</string>
+    <string name="nameText">Enter your name</string>
+    <string name="birthText">Enter your birth date</string>
+    <string name="obstaclesText">Set the number of obstacles</string>
+    <string name="roundText">Set the number of rounds</string>
+    <string name="marginText">Set the margin</string>
+    <string name="nextButton">Make the labyrinth</string>
+    <string name="birthButton">Select Date</string>
+</resources>

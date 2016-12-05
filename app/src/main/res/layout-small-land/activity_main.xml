@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Set the margin "
+                    android:ems="10"
+                    android:id="@+id/marginText"
+                    android:layout_marginTop="45dp"
+                    android:textAlignment="viewStart"
+                    android:layout_below="@+id/roundText"
+                    android:layout_alignLeft="@+id/roundText"
+                    android:layout_alignStart="@+id/roundText" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="text|textPersonName"
+                    android:hint="Enter your name"
+                    android:ems="10"
+                    android:layout_marginTop="45dp"
+                    android:id="@+id/nameText"
+                    android:textAlignment="viewStart"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Set the number of obstacles"
+                    android:ems="10"
+                    android:id="@+id/obstaclesText"
+                    android:textAlignment="viewStart"
+                    android:layout_marginTop="45dp"
+                    android:layout_below="@+id/birthText"
+                    android:layout_alignLeft="@+id/birthText"
+                    android:layout_alignStart="@+id/birthText"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_marginTop="45dp"
+                    android:id="@+id/birthText"
+                    android:hint="Enter your birth date"
+                    android:textAlignment="viewStart"
+                    android:layout_below="@+id/nameText"
+                    android:layout_alignLeft="@+id/nameText"
+                    android:layout_alignStart="@+id/nameText"
+                    android:textSize="18sp"
+                    />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="Set the number of rounds"
+                    android:ems="10"
+                    android:id="@+id/roundText"
+                    android:textAlignment="viewStart"
+                    android:layout_marginTop="42dp"
+                    android:layout_below="@+id/obstaclesText"
+                    android:layout_alignLeft="@+id/obstaclesText"
+                    android:layout_alignStart="@+id/obstaclesText" />
+
+                <Button
+                    android:text="Select Date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/birthButton"
+                    android:layout_alignBaseline="@+id/birthText"
+                    android:layout_alignBottom="@+id/birthText"
+                    android:layout_toRightOf="@+id/nextButton"
+                    android:layout_toEndOf="@+id/nextButton"
+                    />
+
+                <Button
+                    android:text="Make the labyrinth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nextButton"
+                    android:textAlignment="center"
+                    android:background="@android:color/darker_gray"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
